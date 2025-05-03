@@ -14,7 +14,7 @@ export default function PageIndicator({
     <ul className={`flex gap-[2px] ${className}`}>
       {Array(pageCount)
         .fill(0)
-        .map((arr, index) => (
+        .map((_arr, index) => (
           <li
             key={index}
             className={` ${
